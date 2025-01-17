@@ -48,7 +48,6 @@ class RepositoryBasedEntityModel(models.Model):
         null=True,
         related_name="+",
     )
-
     @property
     def is_indexable(self):
         """Entities to index."""

@@ -30,3 +30,4 @@ class CommitteeIndexMixin(GenericEntityMixin):
     def idx_updated_at(self):
         """Return updated at for indexing."""
         return self.updated_at.timestamp()
+        return self.updated_at
